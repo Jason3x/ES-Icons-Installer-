@@ -1,4 +1,4 @@
-## ES-Installer
+## ES I os Installer
 ![Platform](https://img.shields.io/badge/Platform-R36S-blue)
 ![OS](https://img.shields.io/badge/OS-%20dArkOS%20RE%20|%20darkos4clone-green)
 ![Shell](https://img.shields.io/badge/Bash-Script-yellow)
