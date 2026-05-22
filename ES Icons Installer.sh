@@ -14,8 +14,8 @@ SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 CURR_TTY="/dev/tty1"
 BACKTITLE="ES Installer R36S - By Jason -"
 
-RAW_BASE="https://raw.githubusercontent.com/Jason3x/ES-Installer/main"
-API_BASE="https://api.github.com/repos/Jason3x/ES-Installer/contents"
+RAW_BASE="https://raw.githubusercontent.com/Jason3x/ES-Icons-Installer-/main"
+API_BASE="https://api.github.com/repos/Jason3x/ES-Icons-Installer-/contents"
 
 # Noms des fichiers sur le dépôt 
 ES_DARKS_URL="$RAW_BASE/ES%20dArkOS%20RE"
