@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #--------------------------------#
-#      ES Installer - R36S       #
+#    ES Icons Installer - R36S   #
 #          By Jason              #
 #--------------------------------#
 
@@ -12,7 +12,7 @@ fi
 
 SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 CURR_TTY="/dev/tty1"
-BACKTITLE="ES Installer R36S - By Jason -"
+BACKTITLE="ES Icons Installer R36S - By Jason -"
 
 RAW_BASE="https://raw.githubusercontent.com/Jason3x/ES-Icons-Installer-/main"
 API_BASE="https://api.github.com/repos/Jason3x/ES-Icons-Installer-/contents"
@@ -46,7 +46,7 @@ pkill -9 -f osk.py    || true
 printf "\033c" > "$CURR_TTY"
 
 for i in {1..2}; do
-    printf "Starting ES Installer...\nPlease wait." > "$CURR_TTY"
+    printf "Starting ES Icons Installer...\nPlease wait." > "$CURR_TTY"
     sleep 0.6
     printf "\033c" > "$CURR_TTY"
     sleep 0.4
@@ -56,7 +56,7 @@ done
 printf "\033c" > "$CURR_TTY"
 printf "\n\n" > "$CURR_TTY"
 printf "      ========================================\n" > "$CURR_TTY"
-printf "             Welcome to ES Installer          \n" > "$CURR_TTY"
+printf "           Welcome to ES Icons Installer      \n" > "$CURR_TTY"
 printf "                    By Jason                  \n" > "$CURR_TTY"
 printf "      ========================================\n" > "$CURR_TTY"
 sleep 2
